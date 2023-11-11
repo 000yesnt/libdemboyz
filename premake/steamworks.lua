@@ -11,7 +11,7 @@ if (os.get() == "windows") then
     path_sep = "\\"
     copy_cmd = "copy "
 elseif (os.get() == "linux") then
-    lib_dir = "linux32/"
+    lib_dir = "linux64/"
     lib_name = "libsteam_api.so"
     path_sep = "/"
     copy_cmd = "cp -f "

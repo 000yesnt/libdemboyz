@@ -6,6 +6,7 @@ group "external"
     project "sourcesdk"
         kind "StaticLib"
         language "C++"
+	pic "on"
         location (_ACTION .. "/" .. project().name)
         configuration "gmake"
             buildoptions { "-std=c++11" }
