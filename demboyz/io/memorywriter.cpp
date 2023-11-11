@@ -50,6 +50,11 @@ void MemoryWriter::StartWriting(demoheader_t& header)
     m_header = header;
 }
 
+void MemoryWriter::EndWriting()
+{
+    // there's nothing we can do
+}
+
 void MemoryWriter::StartCommandPacket(const CommandPacket& packet) 
 {
     m_currentCommandPacket = packet;
