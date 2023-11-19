@@ -1,5 +1,9 @@
-This fork is an experiment to try to integrate demboyz's reader/writers with other programs/languages. Original readme below:
+This fork is an experiment to try to integrate demboyz's reader/writers with other programs/languages. 
 
+[Original repo](https://github.com/SizzlingStats/demboyz)
+
+Original readme below:
+---
 # demboyz
 we dem boyz
 
